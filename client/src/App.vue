@@ -44,7 +44,8 @@
 
 <script setup lang="ts">
 import { notification, Button } from 'ant-design-vue'
-import 'ant-design-vue/lib/notification/style/index.css'
+import 'ant-design-vue/es/notification/style/css'
+import 'ant-design-vue/es/button/style/css'
 import { h, ref, reactive, computed, onMounted } from 'vue'
 import PreviewCode from './components/PreviewCode.vue'
 

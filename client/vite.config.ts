@@ -13,6 +13,15 @@ export default defineConfig({
       '@': resolve(__dirname, './src')
     },
   },
+  build: {
+    rollupOptions: {
+      manualChunks(id) {
+        if (id.includes('node_modules')) {
+          return 'vendor';
+        }
+      }
+    }
+  },
   plugins: [
     vue(),
     AutoImport({
