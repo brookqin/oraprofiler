@@ -11,6 +11,6 @@ require (
 require (
 	github.com/fsnotify/fsnotify v1.5.4
 	github.com/google/uuid v1.3.0 // indirect
-	golang.org/x/text v0.3.7
 	golang.org/x/sys v0.0.0-20220829200755-d48e67d00261 // indirect
+	golang.org/x/text v0.3.8
 )
